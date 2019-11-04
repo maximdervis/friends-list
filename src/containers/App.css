@@ -14,6 +14,6 @@ h1
 
 .header
 {
-	background: linear-gradient(to left, rgb(7, 27, 82), rgb(0, 128, 128));
+	background: radial-gradient(rgb(0, 128, 128), rgb(0, 100, 100));
 	border-bottom: 2px solid black;
 }

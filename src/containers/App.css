@@ -15,5 +15,5 @@ h1
 .header
 {
 	background: radial-gradient(rgb(0, 128, 128), rgb(0, 100, 100));
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid rgb(0, 60, 60);
 }

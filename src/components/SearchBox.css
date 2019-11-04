@@ -1,0 +1,9 @@
+.searchBox
+{
+	background-color: rgb(210, 247, 241);
+}
+
+.searchBox:focus
+{
+	outline-color: #19A974;
+}

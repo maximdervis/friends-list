@@ -1,4 +1,5 @@
 import React from 'react';
+import './SearchBox.css'
 
 const SearchBox = ({onSearchFieldChange}) =>
 {
@@ -6,7 +7,7 @@ const SearchBox = ({onSearchFieldChange}) =>
 		<div className="pa2">
 			<input 
 			onChange={onSearchFieldChange} 
-			className="mb2 pa3 bg-lightest-blue ba b--green" 
+			className="mb2 pa3 searchBox ba b--green" 
 			type="search" 
 			placeholder="search for friends"/>
 		</div>

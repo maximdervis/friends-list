@@ -43,8 +43,8 @@ class App extends React.Component
 
 		return(
 			<div className="tc">
-				<div className="header">
-					<h1 className="f1 mb2 pt4 mt0">robofriends</h1>
+				<div className="header pb3 pt4">
+					<h1 className="f1 mb2 mt0">robofriends</h1>
 					<SearchBox onSearchFieldChange={this.onSearchFieldChange}/>
 				</div>
 				<Scroll>

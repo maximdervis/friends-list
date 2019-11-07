@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Scroll = (props) =>
+const Scroll = ({children, height}) =>
 {
 	return(
-		<div style={{overflowY: 'scroll', height: '775px',}}>
-			{props.children}
+		<div style={{overflow: 'auto', height: '750px', borderBottom: '3px solid rgb(0, 60, 60)', background: 'linear-gradient(to left, rgb(0, 94, 94), rgb(0, 128, 128))',}}>
+			{children}
 		</div>
 	);
 }
+
 export default Scroll;
